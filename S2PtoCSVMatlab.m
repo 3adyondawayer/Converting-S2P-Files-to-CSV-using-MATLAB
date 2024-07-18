@@ -9,7 +9,7 @@ cd(selectedPath);
 if isequal(fileName, 0)
     error('No file selected');
 end
-
+ 
 try
     % Create the sparameters object
     OBJ_UCFT2_F1 = sparameters(fullfile(pathName, fileName));
